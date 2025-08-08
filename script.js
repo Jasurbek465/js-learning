@@ -122,6 +122,19 @@ if (raqam === 1) {
 } else {
     console.log("siz garangmisiz haftada faqat 7 kun bor!!!");
 }
+// begin1.2.
+a = 3;
+let perimetr = 4 * a;
+let yuzi = a ** 2;
+console.log("perimetri: ", Number(perimetr));
+console.log("Yuzi: ", Number(yuzi));
+
+// begin3.
+a = 4;
+b = 6;
+let perimetri = 2 * (a + b);
+let yuzi = a * b;
+console.log("perimetri: " + perimetri + ", Yuzi" + yuzi);
 
 // begin10.
 a = 2;
