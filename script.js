@@ -16,6 +16,20 @@ let yosh = hozirgiYil - tugilganYil;
 
 alert("Siz " + yosh + " yoshdasiz.");
 
+// 4-misol
+let time = 60;
+let min = time * 60;
+let sec = time * 3600;
+let milsec = time * 3600000;
+
+console.log("soat", time);
+console.log("minut", min);
+console.log("sekund", sec);
+console.log("millisekund", milsec);
+
+
+
+
 // 5-misol
 let a = 12;
 let b = 34;
@@ -70,7 +84,7 @@ console.log(notEqual);
 
 // 1-misol
 let ism = prompt("Ismingizni kiriting:");
-if (ism.length > 7) {
+if (ism.length >= 7) {
     console.log("Ismingiz uzun");
 } else {
     console.log("Ismingiz qisqa");
